@@ -1,0 +1,21 @@
+.acf-image-select-list .acf-image-select img {
+    width: 220px;
+}
+
+.acf-image-select-list .acf-image-select .acf-image-select-selected img {
+    border: solid 4px #e16261 !important;
+}
+
+.acf-image-select.journey3-videostory,
+.acf-image-select.journey1-videostory {
+    display: none;
+}
+
+.acf-image-select.journey3-post {
+    display: none;
+}
+
+.acf-image-select.journey1-photostory,
+.acf-image-select.journey2-photostory {
+    display: none;
+}

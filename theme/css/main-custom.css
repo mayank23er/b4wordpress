@@ -1,0 +1,194 @@
+    /*****************************/
+    /** add you custom css here **/
+    /** journey category heading**/
+    
+    button.navbar-toggler {
+        border: none;
+        outline: none;
+    }
+    
+    .journey-cat-common-hero-wrapper {}
+    
+    .journeys-cat-common-banner-sec {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .journeys-cat-common-banner-sec:before {
+        position: absolute;
+        z-index: -9999999;
+        top: 61%;
+        left: 0;
+        width: 100%;
+        height: 47%;
+        content: "";
+        background-color: #fafafa;
+    }
+    
+    .journeys-cat-h,
+    .journeys-stories-h {
+        font-family: LibreBaskerville;
+    }
+    
+    .journeys-cat-common-banner-sec {
+        padding-bottom: 0px;
+    }
+    
+    .journeys-cat-common-banner-sec h2,
+    .journeys-story-common-exp h2 {
+        padding-top: 0px;
+    }
+    
+    .journeys-cat-common-banner-sec,
+    .journeys-cat-story-sec,
+    .journeys-story-common-exp {
+        background-color: #ffffff;
+    }
+    
+    .journeys-cat-exp-list {
+        text-align: left;
+    }
+    
+    .journeys-load-more-common {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .journeys-load-more-common-cta {
+        position: absolute;
+        background-color: #ffffff;
+        color: #4a4a4a;
+        border: solid 1px #4a4a4a;
+        padding: 0 4rem;
+        line-height: 48px;
+        text-align: center;
+    }
+    
+    .journeys-load-more-common-cta:hover {
+        color: #4a4a4a;
+        text-decoration: none;
+    }
+    
+    .swiper-container-journey-cat {
+        position: relative !important;
+        overflow: hidden !important;
+    }
+    
+    .url-common {
+        text-decoration: none;
+        color: #2d2d2d;
+    }
+    
+    .url-common:hover,
+    .url-common:focus {
+        text-decoration: none;
+        color: #2d2d2d;
+    }
+    /** custom responsive media queries **/
+    
+    @media (max-width: 767px) {
+        .journeys-cat-common-banner-sec {
+            padding-top: 120px;
+        }
+        .journeys-cat-cover-img-mob {
+            display: block;
+        }
+    }
+    
+    @media (min-width:768px) {
+        .journeys-cat-common-banner-sec,
+        .journeys-story-common-exp,
+        .top-section-margin {
+            padding-top: 196px !important;
+        }
+        .articles-marginT {
+            padding-top: 175px !important;
+        }
+        .journeys-cat-cover-img-desk {
+            /* background-image: url(../../images/top-banner.jpg); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            padding-top: 43.103448275%;
+            background-position: center center;
+            position: relative;
+            /* mix-blend-mode: multiply; */
+        }
+        .journeys-cat-cover-img-cta {
+            background-color: #e16261;
+            color: #ffffff !important;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-bottom: 3rem;
+            padding: 0 1.5rem;
+            line-height: 38px;
+            text-align: center;
+            margin-right: 3rem;
+        }
+        .journeys-cat-cover-img-cta:hover,
+        .journeys-cat-cover-img-cta:focus {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .journeys-cat-exp-list {
+            text-align: left;
+            color: #ffffff;
+            bottom: 0;
+            left: 0;
+            margin-left: 3rem;
+            margin-bottom: 3rem;
+            position: absolute;
+        }
+        .single-experience .journeys-cat-exp-list {
+            width: 50%;
+        }
+        .single-experience .exp-list.journeys-cat-exp-list h5.dk-image {
+            padding-bottom: 1rem;
+        }
+        .journeys-cat-cover-img-mob {
+            display: none;
+        }
+    }
+    
+    @media (max-width:991px) {
+        .map {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .journeys-cat-exp-list {
+            text-align: left;
+            color: #2d2d2d;
+            top: 220px;
+            left: 0;
+            margin-left: 0;
+            margin-bottom: 3rem;
+            position: absolute;
+        }
+        .journeys-cat-common-banner-sec {
+            padding-bottom: 115px;
+        }
+        .journeys-cat-cover-img-cta {
+            background-color: #e16261;
+            color: #ffffff;
+            position: absolute;
+            bottom: -251px;
+            right: 0;
+            margin-bottom: 3rem;
+            padding: 0 1.5rem;
+            line-height: 38px;
+            text-align: center;
+            margin-right: 3rem;
+        }
+    }
+    
+    @media (min-width:991px) {
+        .single-experience .exp-list.journeys-cat-exp-list .location .map {
+            background-image: url(../../images/map-white.png);
+        }
+        .single-experience .exp-list.journeys-cat-exp-list .location .day {
+            background-image: url(../../images/date-white.png);
+        }
+    }
+    /** ends here **/
+    /*****************************/
